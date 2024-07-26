@@ -22,5 +22,3 @@ class MaterialSerializer(serializers.ModelSerializer):
     class Meta:
         model = Material
         fields = ['name']
-
-

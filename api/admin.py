@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Material, Product, ProductMaterial, Warehouse
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['name', 'quantity', 'code']
+    list_display = ['name', 'code']
 class WarehouseAdmin(admin.ModelAdmin):
     list_display = ['material', 'remainder', 'price']
 

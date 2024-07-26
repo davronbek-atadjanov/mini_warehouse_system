@@ -83,12 +83,8 @@ WSGI_APPLICATION = "werehouse_system.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "werehouse_system_db",
-        "HOST": "localhost",
-        "PORT": 5432,
-        "USER": "postgres",
-        "PASSWORD": "12345"
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
